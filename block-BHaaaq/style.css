@@ -58,44 +58,60 @@ h1 {
     height: 34px;
     border: 3px solid  black;
     margin: 34px 34px;
+    display: inline-block;
 }
-.carte {
+.box-double {
     background-color: brown;
     width: 60px;
     height: 34px;
-    border: 3px solid  black;
+    border: 3px double  black;
     margin: 34px 34px;
-    box-shadow: inset 0 0 0 0.5px black
+    display: inline-block;
 }
-.bike {
+.box-dotted {
     background-color: brown;
     width: 60px;
     height: 34px;
-    border: 3px dotted black;
+    border: 3px dotted  black;
     margin: 34px 34px;
-    margin: 0 auto ;
-    transform-origin: center;
+    display: inline-block;
+
 }
-.bill {
+.box-dashed{
     background-color: brown;
     width: 60px;
     height: 34px;
-    border: 3px none black;
+    border: 3px dashed  black;
     margin: 34px 34px;
+    display: inline-block;
+}
+.no-border {
+    background-color: brown;
+    width: 60px;
+    height: 34px;
+    border: 3px no-border;
+    margin: 34px 34px;
+    display: inline-block;
+}
      
     
-}
+
 p {
-    background-color: brown;
+    background-color: red;
     width: 200px;
     height: 340px;
     
-    border-right:inset gray 20px;
-    border-top: inset blue 20px;
-    border-bottom: inset yellow 20px;
-    border-left: inset green 20px;
+    border-right: 20px solid grey;
+    border-top: 20px solid blue;
+    border-bottom: 20px solid yellow;
+    border-left: 20px solid green;
     
     
     margin: 34px 34px;
     padding: 20px;
+}
+.para-complete {
+ background-color: blueviolet;
+ display: inline-block;
+ margin: 20px ;
 }

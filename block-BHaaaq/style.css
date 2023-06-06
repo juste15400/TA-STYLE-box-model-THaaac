@@ -1,0 +1,101 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+    font-size: 12px;
+    margin: 16px;
+    text-transform: capitalize;
+}
+ .box {
+    background-color: brown;
+    width: 60px;
+    height: 34px;
+    border: 3px solid  black;
+    margin: 34px 34px;
+}
+.carte {
+    background-color: brown;
+    width: 60px;
+    height: 34px;
+    border: 3px solid  black;
+    margin: 34px 34px;
+    box-shadow: inset 0 0 0 0.5px black
+}
+.bike {
+    background-color: brown;
+    width: 60px;
+    height: 34px;
+    border: 3px dotted black;
+    margin: 34px 34px;
+    margin: 0 auto ;
+    transform-origin: center;
+}
+.bill {
+    background-color: brown;
+    width: 60px;
+    height: 34px;
+    border: 3px none black;
+    margin: 34px 34px;
+     
+    
+}
+p {
+    background-color: brown;
+    width: 200px;
+    height: 340px;
+    
+    border-right:inset gray 20px;
+    border-top: inset blue 20px;
+    border-bottom: inset yellow 20px;
+    border-left: inset green 20px;
+    
+    
+    margin: 34px 34px;
+    padding: 20px;
+}
